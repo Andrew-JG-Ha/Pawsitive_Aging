@@ -32,7 +32,6 @@ class CustomVariationalLayer(keras.layers.Layer):
         # We don't use this output.
         return x
 
-
 img_shape = (28, 28, 1)
 batch_size = 16
 latent_dim = 2  # Dimensionality of the latent space
